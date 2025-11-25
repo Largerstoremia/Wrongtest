@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Question, ViewMode } from './types';
 import { getAllQuestions, getRandomQuestions, getUniqueKnowledgePoints } from './services/database';
@@ -77,7 +76,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <BookOpenCheck className="w-6 h-6 text-primary-600" />
-            <h1 className="text-xl font-bold text-slate-900 tracking-tight">我的错题本</h1>
+            <h1 className="text-xl font-bold text-slate-900 tracking-tight">铭的错题本</h1>
           </div>
           <div className="text-sm text-slate-500">
             {mode === 'browse' ? '浏览模式' : '随机练习'}

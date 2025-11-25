@@ -29,7 +29,7 @@ const MOCK_DB: Question[] = [
     subject: '数学',
     question: '从第1根电线杆走到第10根电线杆，每两根电线杆间隔6米，一共走了多少米？',
     answer: '54米 (间隔数是9，9×6=54)',
-    knowledgePoint: '植树问题'
+    knowledgePoint: '间隔问题'
   },
   {
     id: '20',
