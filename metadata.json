@@ -1,0 +1,5 @@
+{
+  "name": "Mistake Reviewer",
+  "description": "A focused mistake notebook application to review wrong answers. Features random sampling or full browsing with click-to-reveal answers.",
+  "requestFramePermissions": []
+}
