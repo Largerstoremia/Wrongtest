@@ -49,7 +49,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question }) => {
 
       {/* Question Body */}
       <div className="p-6 flex-grow">
-        <h3 className="text-lg font-medium text-slate-800 leading-relaxed">
+        <h3 className="text-lg font-medium text-slate-800 leading-relaxed whitespace-pre-wrap">
           {question.question}
         </h3>
       </div>
@@ -69,7 +69,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question }) => {
                 <Eye className="w-3 h-3" />
                 答案
               </div>
-              <p className="text-slate-800 font-medium">{question.answer}</p>
+              <p className="text-slate-800 font-medium whitespace-pre-wrap">{question.answer}</p>
             </div>
           ) : (
             <div className="w-full flex flex-col items-center justify-center text-slate-400 gap-2 py-2">

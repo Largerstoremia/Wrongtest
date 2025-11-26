@@ -211,7 +211,7 @@ const App: React.FC = () => {
           </div>
         ) : (
           <>
-            <div className="mb-4 text-sm text-slate-500 flex justify-between items-center">
+            <div className="mb-4 text-sm text-slate-500 flex justify-between items-center max-w-3xl mx-auto">
               <span>共找到 {questions.length} 道错题</span>
               {mode === 'browse' && browseSubject !== 'all' && (
                  <span className="bg-slate-100 px-2 py-1 rounded text-xs">
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                  </span>
               )}
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 gap-6 max-w-3xl mx-auto">
               {questions.map((q) => (
                 <QuestionCard key={q.id} question={q} />
               ))}
